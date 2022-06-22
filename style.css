@@ -1,34 +1,46 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
+    height: 100%;
 }
 
 .header {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     background-color: #1F2937;
     color: #ffffff;
     padding: 10px;
 }
 
 .hero {
-    font-size: 48pt;
+    font-size: 32pt;
     font-weight: 900;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .sub {
-    font-size: 18pt;
+    font-size: 16pt;
     color: #e5e7eb;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .h-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: auto;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    margin-left: 10px;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
 }
 
 .h-container {
@@ -42,14 +54,20 @@ body{
     align-items: flex-start;
 }
 
+.signup-top {
+    background-color: #3882f5;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
 .img {
-    background-color: #949495;
-    color: rgb(255, 255, 255);
-    width: 60%;
-    height: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 ul {
