@@ -9,6 +9,7 @@ body{
     background-color: #1F2937;
     color: #ffffff;
     padding: 10px;
+    margin: 0;
 }
 
 .hero {
@@ -74,4 +75,39 @@ ul {
     display: flex;
     list-style: none;
     margin: 10px 10px;
+}
+
+.first {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0px 5px 15px 5px;
+    padding: 40px 50px;
+    background-color: #3882f5;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
 }
