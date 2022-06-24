@@ -1,6 +1,7 @@
 body{
     font-family: Roboto, Arial, sans-serif;
     height: 100%;
+    margin: auto;
 }
 
 .header {
@@ -85,6 +86,7 @@ ul {
     align-items: center;
     color: #1F2937;
     font-weight: bold;
+    height: 300px;
 }
 
 .cards {
